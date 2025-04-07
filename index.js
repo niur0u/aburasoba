@@ -61,7 +61,6 @@ function turn(e) {
     if (div.innerHTML == '') {
         div.className = 'card'; //backというクラス名を取り除いた
         div.innerHTML = img_tag_arr[div.number];
-        div.style.transition = 'none';
     } else {
         return // 数字が表示されているカードは return
     }
