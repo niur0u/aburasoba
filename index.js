@@ -78,7 +78,7 @@ function turn(e) {
                     clearInterval(timer);  // timer終了
                     //setInterval(showSecond, 1000)
                 }
-            }, 300)
+            }, 600)
         } else {
             backTimer = setTimeout(function () {
                 div.className = 'card back';
@@ -87,7 +87,7 @@ function turn(e) {
                 cardFirst.innerHTML = '';
                 cardFirst = null;
                 backTimer = NaN;
-            }, 300);
+            }, 600);
         }
         flgFirst = true;
     }
